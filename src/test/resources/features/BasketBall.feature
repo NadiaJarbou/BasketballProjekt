@@ -5,7 +5,7 @@ Feature: Create a new user on basketball england
     Given Navigate to registration page
     When I enter valid user info
     And  I click on submit button
-    Then A new account created successfully
+    Then A new member account created successfully
 
   Scenario Outline: Register a new user with outline
     Given Navigate to registration page
