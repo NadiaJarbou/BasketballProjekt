@@ -11,7 +11,7 @@ Feature: Create a new user on basketball england
     Given Navigate to registration page
     When I enter valid details: "<firstname>", "<lastname>", "<email>", "<password>", "<confirm_password>"
     And  I click on submit button
-    Then A new account created successfully
+    Then A new member account created successfully
 
     Examples:
       | firstname | lastname | email              | password     | confirm_password |

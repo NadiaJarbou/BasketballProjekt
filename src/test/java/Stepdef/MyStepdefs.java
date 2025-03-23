@@ -58,7 +58,7 @@ public class MyStepdefs {
         driver.findElement(By.name("join")).click();
     }
 
-    @Then("A new account created successfully")
+    @Then("A new member account created successfully")
     public void aNewAccountCreatedSuccessfully() {
         WebElement successMessage = driver.findElement(By.cssSelector(".background-gray"));
        Assert.assertTrue(successMessage.isDisplayed());
