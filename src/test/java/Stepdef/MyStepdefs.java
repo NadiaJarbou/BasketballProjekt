@@ -26,7 +26,6 @@ public class MyStepdefs {
     @Given("Navigate to registration page")
     public void navigateToRegistrationPage() {
         //driver = new ChromeDriver();
-        System.setProperty("webdriver.edge.driver", "C:\\msedgedriver.exe");
         driver = new EdgeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://membership.basketballengland.co.uk/NewSupporterAccount");
