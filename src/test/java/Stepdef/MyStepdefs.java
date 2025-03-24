@@ -73,6 +73,7 @@ public class MyStepdefs {
         driver.findElement(By.id("member_confirmemailaddress")).sendKeys("nadja.jarbou11@gmail.com");
         driver.findElement(By.id("signupunlicenced_password")).sendKeys("Password123!");
         driver.findElement(By.id("signupunlicenced_confirmpassword")).sendKeys("Password123!");
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement termsAccept = driver.findElement(By.id("sign_up_25"));
         js.executeScript("arguments[0].click();", termsAccept);
@@ -102,6 +103,7 @@ public class MyStepdefs {
         driver.findElement(By.id("member_confirmemailaddress")).sendKeys("nadja.jarbou12@gmail.com");
         driver.findElement(By.id("signupunlicenced_password")).sendKeys("Password123!");
         driver.findElement(By.id("signupunlicenced_confirmpassword")).sendKeys("Password!");
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement termsAccept = driver.findElement(By.id("sign_up_25"));
         js.executeScript("arguments[0].click();", termsAccept);
@@ -129,8 +131,8 @@ public class MyStepdefs {
         driver.findElement(By.id("member_confirmemailaddress")).sendKeys("nadja.jarbou13@gmail.com");
         driver.findElement(By.id("signupunlicenced_password")).sendKeys("Password123!");
         driver.findElement(By.id("signupunlicenced_confirmpassword")).sendKeys("Password123!");
-        JavascriptExecutor js = (JavascriptExecutor) driver;
 
+        JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement ageAccept = driver.findElement(By.id("sign_up_26"));
         js.executeScript("arguments[0].click();", ageAccept);
         WebElement codeAccept = driver.findElement(By.id("fanmembersignup_agreetocodeofethicsandconduct"));
@@ -158,6 +160,7 @@ public class MyStepdefs {
         driver.findElement(By.id("member_confirmemailaddress")).sendKeys(email);
         driver.findElement(By.id("signupunlicenced_password")).sendKeys(password);
         driver.findElement(By.id("signupunlicenced_confirmpassword")).sendKeys(confirm_password);
+
         JavascriptExecutor js = (JavascriptExecutor) driver;// this class for click the checkbox element
         WebElement termsAccept = driver.findElement(By.id("sign_up_25"));
         js.executeScript("arguments[0].click();", termsAccept);
